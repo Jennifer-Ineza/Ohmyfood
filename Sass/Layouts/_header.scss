@@ -1,0 +1,19 @@
+.header
+{   
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background-color: $frame-bkgd; 
+    color:$frame-txt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;       
+}
+
+a
+    {
+        color:$frame-txt;
+    }

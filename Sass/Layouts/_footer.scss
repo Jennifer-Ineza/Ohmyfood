@@ -1,0 +1,33 @@
+#footer
+{ 
+    position: fixed;
+    bottom:0;
+    left:0;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: $frame-bkgd;
+    justify-content: space-between;
+    padding-left:2%;
+    padding-right: 2%;
+    margin-top: 3px;
+    font-size: 24px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+    .mentions
+    {
+        margin-left: 0%;
+        padding-left: 20px;
+        color:$frame-txt;
+        @include shake;
+    }
+    
+    .contact
+    {
+        margin-right: 0%;
+        padding-right: 20px;
+        color:$frame-txt;
+        @include shake;
+      }
