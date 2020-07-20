@@ -150,7 +150,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
+  width: 100vh;
   height: 16%;
   background-color: #579c87;
   color: #fdcb46;
@@ -179,6 +179,13 @@ a {
   text-align: center;
   padding: 2%;
   margin-bottom: 4%;
+}
+
+h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
 }
 
 a {
@@ -942,5 +949,19 @@ template {
 .img-menu4 {
   width: 195px;
   height: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  img {
+    display: none;
+  }
+  h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 /*# sourceMappingURL=main.css.map */
