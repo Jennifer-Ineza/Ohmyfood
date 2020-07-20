@@ -140,6 +140,7 @@
 }
 
 .header {
+  width: 100%;
   margin-top: 0%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -147,10 +148,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100vh;
   height: 16%;
   background-color: #579c87;
   color: #fdcb46;
@@ -951,7 +948,7 @@ template {
   height: 10px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   img {
     display: none;
   }

@@ -1,10 +1,9 @@
 .header
 {   
+    width: 100%;
     margin-top: 0%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100vh;
     height: 16%;
     background-color: $frame-bkgd; 
     color:$frame-txt;
