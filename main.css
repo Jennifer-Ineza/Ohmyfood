@@ -1,16 +1,17 @@
 #body {
-  min-width: 1200px;
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: 65px;
+  padding-bottom: 8%;
 }
 
-#blocpage {
+#blockpage {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,17 +36,15 @@
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 60px;
+  height: 10%;
   margin-left: 0px;
   margin-right: 0px;
   background-color: #579c87;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-left: 2%;
-  padding-right: 2%;
   margin-top: 3px;
-  font-size: 24px;
+  font-size: 1.5em;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -152,12 +151,12 @@
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  height: 120px;
+  height: 16%;
   background-color: #579c87;
   color: #fdcb46;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bolder;
-  font-size: 50px;
+  font-size: 3em;
 }
 
 a {
@@ -165,7 +164,7 @@ a {
 }
 
 .menus {
-  width: 600px;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -178,19 +177,19 @@ a {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  padding: 10px;
-  margin-bottom: 40px;
+  padding: 2%;
+  margin-bottom: 4%;
 }
 
 a {
   text-decoration: none;
 }
 
-.bloc {
+.block {
   width: 250px;
   height: 200px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25%;
+  padding-bottom: 25%;
   margin: 10px;
   -webkit-box-shadow: 10px 5px 5px #e7e7e7;
           box-shadow: 10px 5px 5px #e7e7e7;
@@ -219,12 +218,12 @@ a {
   transition: .3s ease-in-out;
 }
 
-.bloc:hover {
+.block:hover {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
 }
 
-.bloc:hover {
+.block:hover {
   opacity: .6;
 }
 
@@ -235,26 +234,27 @@ a {
 }
 
 .note {
-  font-size: 45px;
+  font-size: 3em;
   background: -webkit-gradient(linear, left top, right bottom, from(#f04a5e), to(#f78f6a));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-top: 15px;
+  margin-top: 2%;
 }
 
-.t {
-  font-size: 25px;
+.note.note-page {
+  font-size: 1em;
 }
 
 .menua {
-  font-size: 30px;
-  letter-spacing: 2px;
+  margin-top: 0em;
+  font-size: 3em;
+  letter-spacing: 2%;
   font-weight: bolder;
   font-family: '003_engineers_handregular','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .font1 {
-  font-size: 27px;
+  font-size: 2em;
   font-family: 'devonshireregular','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -272,7 +272,7 @@ a {
 }
 
 .head1 {
-  margin-top: 50px;
+  margin-top: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -286,7 +286,6 @@ a {
 }
 
 .b {
-  font-size: 28px;
   background-color: #fff5fe;
   color: #d8852e;
   font-family: 'linguistics_probold','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -294,7 +293,7 @@ a {
 
 .menub {
   letter-spacing: 1.8px;
-  font-size: 24px;
+  font-size: 2.5em;
 }
 
 .font2 {
@@ -302,15 +301,15 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'croissant_oneregular','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 13px;
+  font-size: 1.2em;
 }
 
 .h2-b {
-  font-size: 35px;
+  font-size: 2em;
 }
 
 .h3-b {
-  font-size: 18px;
+  font-size: 1.2em;
 }
 
 /* ---- ACCUEIL---- /* ---- MENU C---- */
@@ -320,9 +319,10 @@ a {
 }
 
 .menuc {
-  font-size: 30px;
+  font-size: 3em;
   font-family: 'paulmaulbold','dancing_script_otregular','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 0.1em;
+  margin: 4%;
 }
 
 .ft {
@@ -360,13 +360,14 @@ a {
 
 .h2-d {
   font-size: 3em;
-  letter-spacing: 3px;
+  letter-spacing: 0.1em;
 }
 
 .menud {
-  font-size: 1.8em;
+  font-size: 3em;
   font-family: 'paulmaulbold','dancing_script_otregular','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 0.11em;
+  margin: 4%;
 }
 
 .menu4 {
@@ -420,16 +421,20 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-size: 13px;
+  font-size: 0.8em;
   margin: 0px;
 }
 
-.box-b {
-  padding-right: 50px;
-  padding-left: 50px;
+.box-a {
+  font-size: 0.6em;
 }
 
-.ligne {
+.box-b {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.line {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -800,11 +805,11 @@ template {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 10px;
-  width: 300px;
-  height: 50px;
+  min-width: 25%;
+  height: 5%;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1.5em;
-  margin-bottom: 50px;
+  margin-bottom: 5%;
 }
 
 .soon1 {

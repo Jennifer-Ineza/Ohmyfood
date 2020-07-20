@@ -1,13 +1,14 @@
 #body
   {
-    min-width: 1200px;
+    
     background-color: white;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 65px;
+    padding-bottom: 8%;
   }
 
-  #blocpage
+  #blockpage
     {
       display: flex;
       flex-direction: column;
