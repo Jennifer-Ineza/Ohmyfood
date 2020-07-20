@@ -8,7 +8,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: 8%;
+  padding-bottom: 15%;
 }
 
 #blockpage {
@@ -247,6 +247,10 @@ a {
 
 .note.note-page {
   font-size: 1em;
+}
+
+h4 {
+  text-align: center;
 }
 
 .menua {
@@ -959,6 +963,12 @@ template {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .menu2 {
+    width: 95%;
+  }
+  #footer {
+    font-size: 1em;
   }
 }
 /*# sourceMappingURL=main.css.map */
