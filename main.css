@@ -256,7 +256,7 @@ h4 {
 .menua {
   margin-top: 0em;
   font-size: 3em;
-  letter-spacing: 2%;
+  letter-spacing: 0.1em;
   font-weight: bolder;
   font-family: '003_engineers_handregular','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
