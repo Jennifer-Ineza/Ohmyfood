@@ -120,17 +120,17 @@ a
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent; 
             font-family:'croissant_oneregular','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;                       
+            font-size: 13px;
+          }
+          .h2-b
+          {
+            font-size: 35px;
+          }
+          .h3-b
+          {
             font-size: 18px;
           }
-          .ba
-          {
-            font-size: 33px;
-          }
-         .bb
-         {
-           font-size: 18px;
-         }
-          
+         
 
 /* ---- ACCUEIL---- /* ---- MENU C---- */
     .c
@@ -184,9 +184,9 @@ a
               font-family: 'kaushan_scriptregular','dancing_script_otregular','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
           }
 
-            .ftd
+            .h2-d
             {
-              font-size: 4em;
+              font-size: 3em;
               letter-spacing:3px ;
             }
             .menud
@@ -207,15 +207,21 @@ a
 {   
   width:50%;
   padding: 50px 0px 0px 0px;
+  box-shadow: rgb(241, 238, 238) 1px 1px 2px 3px;
+
 }
+.menux
+{
+  width: 85%;
+}
+
 
 h3
 {
-margin:0px;
 display: flex;
-justify-content: center;
+align-items: center;
+justify-content: space-between;
 font-weight:normal;
-margin-top: 50px;
 }
 
 h3 > a
@@ -229,16 +235,20 @@ transition: background-size .3s;
 a:hover 
 {
 background-size: 100% 100%;
-
 }
 
 .box
 {
 display: flex;
 flex-direction: column;
-padding-right:50px;
-padding-left:50px;
-font-size: 20px;
+font-size: 13px;
+margin:0px;
+}
+.box-b
+{
+  padding-right:50px;
+  padding-left:50px;
+
 }
 
 .ligne
