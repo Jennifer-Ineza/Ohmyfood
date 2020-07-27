@@ -26,6 +26,12 @@
 {
     h1
     {
-        font-size: 10px; 
+        font-size: 1em; 
     }
 }
+@media screen and (min-width: 1600px) {
+    .menus
+    {
+      width:40%;
+    }
+    }

@@ -974,7 +974,13 @@ template {
 
 @media screen and (max-width: 300px) {
   h1 {
-    font-size: 10px;
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .menus {
+    width: 40%;
   }
 }
 /*# sourceMappingURL=main.css.map */
