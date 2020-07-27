@@ -964,6 +964,9 @@ template {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  h1 {
+    color: red;
+  }
   .menu2 {
     width: 95%;
   }
@@ -975,6 +978,7 @@ template {
 @media screen and (max-width: 300px) {
   h1 {
     font-size: 2em;
+    color: green;
   }
 }
 /*# sourceMappingURL=main.css.map */
