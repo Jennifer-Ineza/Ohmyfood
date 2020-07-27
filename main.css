@@ -161,7 +161,7 @@ a {
 }
 
 .menus {
-  width: 50%;
+  max-width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -969,6 +969,12 @@ template {
   }
   #footer {
     font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  h1 {
+    font-size: 2em;
   }
 }
 /*# sourceMappingURL=main.css.map */
