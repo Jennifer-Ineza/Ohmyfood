@@ -389,6 +389,7 @@ h4 {
   padding: 50px 0px 0px 0px;
   -webkit-box-shadow: #f1eeee 1px 1px 2px 3px;
           box-shadow: #f1eeee 1px 1px 2px 3px;
+  margin-bottom: 7%;
 }
 
 .menux {
@@ -429,15 +430,16 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-size: 0.8em;
+  font-size: 1.2em;
   margin: 0px;
 }
 
 .box-a {
-  font-size: 0.6em;
+  font-size: 0.8em;
 }
 
 .box-b {
+  font-size: 1em;
   padding-right: 10%;
   padding-left: 10%;
 }
