@@ -1,0 +1,55 @@
+/* ---- FOOTER---- */
+.soon
+{
+    background-color: $frame-bkgd;
+    color:$frame-txt;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    min-width: 25%;
+    height: 5%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:1.5em;
+    margin-bottom: 5%;
+}
+
+        .soon1
+        {
+          margin-right: 20px;
+        }
+    .s
+     {
+        width:8px;
+        height:8px;
+        margin:0px 5px;
+        border-radius:50%;
+        animation-name: dots;
+        animation-duration: 10s;
+        display:inline-block;
+        animation-iteration-count:infinite ;
+        animation-timing-function:ease-in-out ;  
+     }
+
+        .s:nth-child(2)
+        {
+          background-color:$frame-txt;
+          animation-delay: 0.8s;
+        }
+        .s:nth-child(3)
+        {
+          background-color:$frame-txt;
+          animation-delay: 1.2s;
+        }
+        .s:nth-child(4)
+        {
+          background-color:$frame-txt;
+          animation-delay: 1.6s;
+        }
+
+@keyframes dots
+{
+  50% { opacity: 0;
+    transform:scale(0.7) translateY(10px);}
+}
