@@ -14,8 +14,8 @@ h2
 {
   display: flex;
  text-align: center;
-
 }
+
 a
 {
   text-decoration:none;
@@ -34,22 +34,21 @@ a
         justify-content: center;
         align-items: center;
         text-align:center;
-        transform: scale(1);
-        transition-property: transform;
+        transition-property: transform;        
+        opacity: 1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
 
         &:hover 
         {
-          transform: scale(1.15);
-        }
-        
-          opacity: 1;
-          -webkit-transition: .3s ease-in-out;
-          transition: .3s ease-in-out;
-        
-        &:hover  
-        {
+          font-size: 1.2em;
           opacity: .6;
+          &.b
+          {
+            font-size: 1.1em;
+          }
         }
+        
      }
 
 /* ---- ACCUEIL---- /* ---- MENU A---- */
@@ -257,7 +256,7 @@ background-size: 100% 100%;
 {
 display: flex;
 flex-direction: column;
-font-size: 1.2em;
+font-size: 1.3em;
 margin:0px;
 }
 

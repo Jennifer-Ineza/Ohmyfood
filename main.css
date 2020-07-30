@@ -211,8 +211,6 @@ a {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  -webkit-transform: scale(1);
-          transform: scale(1);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
   transition-property: transform;
@@ -223,12 +221,12 @@ a {
 }
 
 .block:hover {
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
+  font-size: 1.2em;
+  opacity: .6;
 }
 
-.block:hover {
-  opacity: .6;
+.block:hover.b {
+  font-size: 1.1em;
 }
 
 /* ---- ACCUEIL---- /* ---- MENU A---- */
@@ -430,7 +428,7 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-size: 1.2em;
+  font-size: 1.3em;
   margin: 0px;
 }
 
